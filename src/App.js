@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { ChatEngine } from 'react-chat-engine';
 import ChatFeed from './compoents/ChatFeed';
@@ -10,14 +9,14 @@ function App() {
     <div className="App">
        <ChatEngine
           height="100vh"
-          publicKey='7f7affba-311d-41da-995a-5b96f47cd9b6'
+          projectID='43842d9b-87c1-4b6c-8225-9fe4ad5eb595'
           userName= {localStorage.getItem('userName')}
           userPassword= {localStorage.getItem('password')}
-          renderChatFeed = {(chatAppProps) => 
+          renderChatFeed = {(chatAppProps) =>
           <ChatFeed {...chatAppProps}/> 
   }
     />
-    </div>
+     </div>
   );
 }
 
