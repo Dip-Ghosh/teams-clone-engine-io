@@ -9,12 +9,12 @@ function App() {
     <div className="App">
        <ChatEngine
           height="100vh"
-          projectID='1d263b34-0d7d-4458-8f14-2d938beea169'
+          projectID='43842d9b-87c1-4b6c-8225-9fe4ad5eb595'
           userName= {localStorage.getItem('username')}
           userPassword= {localStorage.getItem('password')}
-          renderChatFeed = {(chatAppProps) =>
-          <ChatFeed {...chatAppProps}/> 
-  }
+          renderChatFeed = {
+              (chatAppProps) => <ChatFeed {...chatAppProps}/>
+          }
     />
      </div>
   );

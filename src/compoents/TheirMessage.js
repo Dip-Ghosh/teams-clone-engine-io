@@ -1,6 +1,9 @@
 import React from 'react'
+import '../App.css'
 
 export default function TheirMessage({lastMessage,message}) {
+
+
     const isFirstMessageByUser = !lastMessage|| lastMessage.sender.username !== message.sender.username
     return (
         <div className="message-row" >

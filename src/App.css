@@ -99,7 +99,7 @@
 .message-row {
   float: left;
   width: 100%;
-  display: flex;
+  display: block;
   margin-left: 18px;
 }
 
