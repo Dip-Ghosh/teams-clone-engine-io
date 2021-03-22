@@ -49,7 +49,7 @@ export default function ChatFeed(props) {
 
            </div>{renderMessages()}
            <div style={{ height:'100px'}}/>
-           <div className="messsage-form-container">
+           <div className="message-form-container">
                 <MessageForm {...props} chatId={activeChat}/>
            </div>
         </div>
